@@ -313,8 +313,8 @@ typedef ptrdiff_t  FT_PtrDist;
 
 #ifndef FT_STATIC_RASTER
 
-#define RAS_ARG   gray_PWorker  worker
-#define RAS_ARG_  gray_PWorker  worker,
+#define RAS_ARG   gray_PWorker  ras_worker
+#define RAS_ARG_  gray_PWorker  ras_worker,
 
 #define RAS_VAR   worker
 #define RAS_VAR_  worker,
